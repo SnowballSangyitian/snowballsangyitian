@@ -1,0 +1,181 @@
+
+#mine-shopCar{
+	background: #eee;
+	width: 16rem;
+	height: 28.45rem;
+}
+
+
+
+#mine-shopCar header{
+	width: 16rem;
+	height: 1.875rem;
+	background: #f9f9f9 url("../img/hd_back01.png") no-repeat left center;
+	background-size: 1rem 1rem;
+/*	overflow: hidden;*/
+	text-align: center;
+	line-height: 1.875rem;
+	border-bottom: 0.05rem solid #e6e6e6;
+}
+
+#mine-shopCar header a{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+	margin-top: 0.425rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+#mine-shopCar header span{
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+#mine-shopCar header i{
+	display: block;
+	width: 1.0rem;
+	height: 1.0rem;
+	float: right;
+	margin-top: 0.425rem;
+	margin-right: 0.15rem;
+	background: url('../img/hd_menu01.png') no-repeat;
+	background-size: 1rem 1rem;
+	position: relative;
+}
+#mine-shopCar article{
+	width: 16rem;
+	height: 5.825rem;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+#mine-shopCar article span{
+	width:0.9rem;
+	height: 0.9rem;
+	position: absolute;
+	top: 2.2rem;
+	left: 0.325rem;
+	color: white;
+	display: block;
+	border-radius: 50%;
+	background: url('../img/icon_ckbox.png') no-repeat -1.28rem 0.0rem;
+	background-size: 2.275rem 0.9rem;
+}
+#mine-shopCar article a{
+	display: inline-block;
+	position: absolute;
+	top: 1.5rem;
+	right: 0.575rem;
+}
+#mine-shopCar article a img{
+	width: 0.775rem;
+	height: 0.825rem;
+}
+#mine-shopCar article dl{
+	width: 12.425rem;
+	height: 2.975rem;
+	margin-top: 0.85rem;
+	margin-left: 1.95rem;
+}
+#mine-shopCar article dl dt{
+	width: 3.25rem;
+	height: 2.975rem;
+	float: left;
+}
+#mine-shopCar article dl dt img{
+	width: 3.25rem;
+	height: 2.975rem;
+	display: inline-block;
+}
+#mine-shopCar article dl dd{
+	float: left;
+	width: 8.075rem;
+	height: 2.975rem;
+	padding-left: 0.8rem;
+}
+#mine-shopCar article dl dd h4{
+	margin-bottom: 0.1rem;
+	font-size: 0.3rem;
+	overflow: hidden;
+	height: 1.15rem;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+    -webkit-overflow:ellipsis;
+}
+#mine-shopCar article dl dd p{
+	margin-bottom: 0.2rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+	color: #f32d61
+}
+
+
+#mine-shopCar article dl dd .addNume i{
+	display: inline-block;
+	width: 1.075rem;height: 1.075rem;
+	background: #f7f7f7;
+	text-align: center;line-height: 1.275rem;
+	border: 0.025rem solid #ccc;
+
+}
+#mine-shopCar article dl dd .addNume b{
+	display: inline-block;
+	width: 1.875rem;
+	margin-top: 0px;
+	height: 1.075rem;
+	background: #f7f7f7;
+	text-align: center;
+	line-height: 1.275rem; 
+	border-top: 0.025rem solid #ccc;
+	border-bottom: 0.025rem solid #ccc;
+}
+
+#mine-shopCar aside{
+	width: 16rem;
+	height: 3.95rem;
+	background: #fff;
+}
+#mine-shopCar aside h4{
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	color: #677282;
+	margin-left: 0.35rem;
+	letter-spacing: 0.1em
+}
+#mine-shopCar aside p{
+	line-height: 1.25rem;
+	margin-left: 0.35rem;
+	font-size: 0.5rem;
+	letter-spacing: 0.1em;
+	color: #677282;
+	font-weight: bold;
+}
+
+
+#mine-shopCar aside p i{
+	float: right;
+	margin-right: 0.25rem;
+
+}
+#mine-shopCar aside p span{
+	color: #f32d61;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+.look01{
+	position: relative;
+	width: 100%;
+	background-color: #fae531;
+	padding-bottom: 180px;
+}
+.look_content{
+	width: 100%;
+}
+.info{
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.pic{
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    z-index: 10;
+    text-align: center;
+}
+.pic img{
+	width: 90%;
+	vertical-align: middle;
+	height: auto;
+	/*background-color: #FAE531;*/
+	margin: 0 auto;
+}
+.text{
+	position: relative;
+    top: -40px;
+    width: 100%;
+    text-align: center;
+    z-index: 12;
+    
+    /*background-color: #FDF298;*/
+}
+.spree_top{
+	height: 66px;
+	display: block;
+	background-color: rgba(225,225,225,0.5);
+	background: url(../img/look/spree_top_bg.png) no-repeat center bottom;
+	background-size: cover;
+	/*-webkit-tap-highlight-color: transparent;*/
+}
+.info_in{
+    position: relative;
+    width: 94%;
+    padding: 30px 3% 0 3%;
+    background: rgba(255,255,255,0.5);
+}
+.info_in h3{
+	line-height: 30px;
+    color: #5d0d0b;
+    font-size: 20px;
+    font-weight: normal;
+}
+.info_in h2{
+    text-align: center;
+    line-height: 40px;
+    color: #5d0d0b;
+    font-size: 24px;
+    font-weight: bold;
+}
+.info_in h2 span{
+    display: inline-block;
+    border-bottom: 0.1rem dashed #5d0d0b;
+    padding-bottom: 10px;
+}
+.info_in p{
+    color: #2f2f2f;
+    font-size: 14px;
+    line-height: 24px;
+    /*display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;*/
+}
+.spree_btn_c .price{
+	display: block;
+    color: #a20400;
+    font-size: 20px;
+}
+.spree_btn_c .price b{
+    font-size: 30px;
+    font-weight: bold;
+}
+.spree_btn_c .price del{
+	color: #666;
+    font-size: 14px;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+.spree_btn_c .spree_shoping{
+	    position: absolute;
+    left: 50%;
+    bottom: -80px;
+    margin-left: -100px;
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    background: #a20400;
+    border-radius: 10px;
+}
+.spree_bottom{
+	height: 62px;
+    background: url(../img/look/spree_bottom_bg.png) no-repeat center bottom;
+    background-size: cover;
+}
+.spree_pros_detail{
+	position: relative;
+	top:0;
+}
+.reason{
+    width: 92%;
+    margin: 0 2%;
+    padding: 10px 2%;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.8);
+}
+.reason h3{
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #c2a600;
+    font-size: 18px;
+    font-weight: normal;
+}
+.reason p{
+    color: #c2a600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+}
+.spree_pros_detail .spree_pros{
+    width: 94%;
+    padding: 0 3%;
+    margin-bottom: 20px;
+}
+.spree_pros_detail .spree_pros img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}

@@ -1,0 +1,54 @@
+
+<div ng-controller="communityCtrl">
+	<header class="sQHeader">
+		<ul>
+			<li><a href="javascript:history.go(-1);" title="返回" class="top_img"></a></li>
+			<li>倩倩文章</li>
+			<li class="Nav">
+				<a title="菜单" class="top_img"></a>
+				<!-- 右侧隐藏菜单 -->
+				<div class="HideNav">
+					<img src="img/hd_menu02.png">
+					<a href="#/home">回首页</a>
+					<!--<a href="javascript:;">图片</a>-->
+					<a href="javascript:;">个人中心</a>
+				</div>
+			</li>
+		</ul>
+	</header>
+	<div class="communiTyBox" ng-controller="communityCtrl">
+		
+		<div class="Community" ng-repeat="x in data1.data">
+			
+					<p><img src="{{x['portrait']}}"/><span>{{x['name']}}</span><a>{{x['classify']}}</a></p>
+					<h3>
+						<a href="#/details">{{x['title']}}</a>
+					</h3>
+					<div class="txt">{{x['particulars']}}</div>
+					<ul>
+						<li>
+							<img src="{{x['tu1']}}">
+						</li>
+						<li>
+							<img src="{{x['tu2']}}">
+						</li>
+						<li>
+							<img src="{{x['tu3']}}">
+						</li>
+					</ul>
+					<ol class="publish">
+						<li>{{x['time']}}</li>
+						<li>
+							<span><i class="bg1"></i>{{x['reply']}}</span>
+							<span><i class="bg2"></i>{{x['praise']}}</span>
+						</li>
+					</ol>
+				</div>
+		
+	</div>
+</div>
+	
+
+
+
+

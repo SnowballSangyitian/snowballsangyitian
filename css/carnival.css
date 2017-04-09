@@ -1,0 +1,169 @@
+
+#chihu img{
+	width: 100%;
+	height: auto;
+}
+#banner_chi{
+	width: 100%;
+}
+#banner_down{
+	width: 100%;
+	background-color: #F5B813;
+}
+#tab_nav{
+	width: 100%;
+	height: 40px;
+}
+#tab_nav li{
+	display:block;
+	width: 33.33%;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+    font-size: 0.65rem;
+    cursor: pointer;
+    float: left;
+    font-weight: bold; 
+}
+.selected{
+	color: #FF9357;
+	border-bottom: 2px solid #ff5c00;
+}
+.tab_content{
+	width: 100%;
+	height: 28.0rem;
+	overflow: hidden;
+}
+.inbox1{
+	width: 100%;
+	height: 28.0rem;
+	background-color: #F6B315;
+	overflow: hidden;
+	display: block;
+	/*display: none;*/
+}
+.inbox1 .innbox{
+	width: 96%;
+	height: 26.0rem;
+	background-color: #F6B315;
+	margin: 20px 2%;
+}
+.inbox1 .innbox .fex{
+	display: block;
+	height: 6.25rem;
+	width: 15.375rem;
+	border-radius: 0.25rem;
+	background-color: #FBE4A0;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.leftbox{
+	height: 6.0rem;
+	width: 6.0rem;
+	margin: 1.0rem 0;
+	float: left;
+}
+.leftbox img{
+	text-align: right;
+	width: 100%;
+}
+.rightbox{
+	height: 6.0rem;
+	width: 7.8rem;
+	margin-top: 1.0rem;
+	float: left;
+	color: #A20400;
+	margin-left: 0.5rem;
+}
+.rightbox h2 a{
+	color: #A20400;
+	font-weight: 100;
+}
+.btn_c{
+	margin-top: 0.3rem;
+}
+.price{
+	color: #A20400;
+}
+.price b{
+	font-size: 16px;
+	margin-left: -0.2rem;
+}
+.price del{
+	color: #666;
+	margin-left: 0.2rem;
+}
+.btn_c a{
+	display: block;
+	height: 0.8rem;
+	width: 3.5rem;
+	background-color: #A20400;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 0.8rem;
+}
+.footimg{
+	width: 100%;
+	height: 3.0rem;
+	overflow: hidden;
+}
+.footimg img{
+	display: block;
+	width: 40%;
+	height: 2.0rem;
+	margin: 0.5rem auto;
+}
+.inbox2{
+	/*display: none;*/
+	width: 100%;
+	height: 28.0rem;
+	background-color: #DF8EFB;
+	overflow: hidden;
+	display: block;
+}
+.inbox2 .innbox{
+	width: 96%;
+	height: 26.0rem;
+	background-color: #DF8EFB;
+	margin: 20px 2%;
+}
+.inbox2 .innbox .fex{
+	/*display: block;*/
+	height: 6.25rem;
+	width: 15.375rem;
+	border-radius: 0.25rem;
+	background-color: #F2D2FD;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.inbox3{
+	/*display: none;*/
+	width: 100%;
+	height: 28.0rem;
+	background-color: #29AFF4;
+	overflow: hidden;
+	display: block;
+}
+.inbox3 .innbox{
+	width: 96%;
+	height: 26.0rem;
+	background-color: #29AFF4;
+	margin: 20px 2%;
+}
+.inbox3 .innbox .fex{
+	display: block;
+	height: 6.25rem;
+	width: 15.375rem;
+	border-radius: 0.25rem;
+	background-color: #A9DFFA;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.footimg{
+	margin-bottom:1.25rem;
+}
+.footimg img{
+	width:5.25rem;
+	height:1.6rem;
+}

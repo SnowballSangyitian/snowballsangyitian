@@ -1,0 +1,84 @@
+
+<!-- 头部 -->
+
+	<div class="head">
+		<div class="logo">
+			<img src="img/head_60.jpg" alt="" />
+		</div>
+		sangyitian
+	</div>
+	<!-- 导航 -->
+	<div class="swiper-container banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="tpl/camera.html"><img src="img/001.jpg"  alt=""></a></div>
+            <div class="swiper-slide"><a href="javascript:;"><img style="height: 100%;" src="img/002.jpg"  alt=""></a></div>
+            <div class="swiper-slide"><a href="javascript:;"><img src="img/003.jpg"  alt=""></a></div>
+            <div class="swiper-slide"><a href="javascript:;"><img src="img/004.jpg"  alt=""></a></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    
+    <!-- 分类 -->
+	<div class="Category">
+		<ul>
+			<li><a href="#/cosme"><img src="img/advantage_my.png"  alt=""><p>倩倩最爱</p></a></li>
+			<li><a href="#/cosme"><img src="img/advantage_mz.png"  alt=""><p>倩倩喜欢</p></a></li>
+			<li><a href="#/cosme"><img src="img/advantage_sp.png"  alt=""><p>倩倩美女</p></a></li>
+			<li><a href="#/cosme"><img src="img/advantage_xb.png"  alt=""><p>倩倩社区</p></a></li>
+		</ul>
+	</div>
+	<!-- 限购 -->
+	<section class='limit' ng-controller="homeCtrl">
+		<h2><!--限时特卖-->  <span>倩倩心情好</span></h2>
+		
+		<ul ng-repeat="x in data1.data1">
+			<li style="background-image: url({{x['img']}});background-repeat: no-repeat;"><a href="javascript:;"> 
+				<p>{{x['title']}}</p>
+                 <p>{{x['introduce']}}</p>
+                 <!--<p>&yen;{{x['price']}}</p>-->
+                 <p> <!--<del> &yen;{{x['delprice']}} </del>--><img src="{{x['nation']}}" alt=""></p>
+			</a></li>
+		</ul>
+	</section>
+
+	<!-- 精选 -->
+	<section class='fancy' ng-controller="homeCtrl">
+		<h2><!--全球精选--> <span><!--用心为你寻找全球优质产品--></span></h2>
+		<ul ng-repeat="x in data.data"> 
+			<li><a href="#"><img  class="load-img" src="img/advantage_xb.png" th="{{x['img']}}" alt="">
+			<h4 style="background-image:url({{x['nation']}}) ;">{{x['address']}} </h4>          
+			<h3>{{x['introduce']}}</h3>
+			<div class="price">
+				&yen;<span>{{x['price']}}</span>
+				<del>{{x['delprice']}}</del>
+			</div>
+			</a></li>
+		</ul>
+	</section>
+		<!-- 返回头部 -->
+		 <div class="backtop">
+		<img src="img/icon_backtop.png" alt="">
+		</div> 
+		<div style="clear: both;height: 0px;width: 0px;">
+			
+		</div>
+		<!-- 加载 -->
+		<div class="loading">
+			<img src="img/loading.gif" alt="">
+		</div>
+		<!-- 标题 -->
+		<div class="title">
+			SnowballSangyitian
+		</div>
+		<!-- 保障 -->
+		<div class="security">
+			<ul>
+				<li><img src="img/ensure_zp.png" alt=""><p>倩倩开心</p></li>
+				<li><img src="img/ensure_js.png" alt=""><p>倩倩快乐</p></li>
+				<li><img src="img/ensure_sh.png" alt=""><p>倩倩幸福</p></li>
+				<li><img src="img/ensure_jg.png" alt=""><p>倩倩无忧</p></li>
+				<li><img src="img/ensure_jx.png" alt=""><p>倩倩真好</p></li>
+			</ul>
+		</div>

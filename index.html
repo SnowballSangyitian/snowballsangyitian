@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no">
+		<meta name="referrer" content="never">
+		<title>倩倩</title>
+
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/mine-shopCar.css" />
+		<link rel="stylesheet" type="text/css" href="css/mine.css" />
+		<link rel="stylesheet" href="css/details.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/community.css" />
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" href="css/shop-info.css" />
+		<link rel="stylesheet" type="text/css" href="css/details.css" />
+		<link rel="stylesheet" type="text/css" href="css/carnival.css" />
+		<script src="lib/angular.min.js"></script>
+		<script src="lib/angular-route.js"></script>
+		<script src="lib/swiper.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="lib/jquery.js"></script>
+		<script src="lib/loadimg.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/allOrderForm.css" />
+		<script src="lib/flexible.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<bod>
+		<!--路由索要呈现的画面-->
+		<div ng-view></div>
+
+		<footer>
+			<ul>
+				<li>
+					<a href="#/home"><img src="img/ico1.png" alt="首页">
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="#/shopping-bag"><img src="img/icon2.png" alt="照片">
+						<p>照片</p>
+					</a>
+				</li>
+				<li>
+					<a href="#/community"><img src="img/icon3.png" alt="文章">
+						<p>文章</p>
+					</a>
+				</li>
+				<li>
+					<a href="#/mine"><img src="img/icon4.png" alt="我的">
+						<p>我的</p>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="app.js"></script>
+		<script src="service.js"></script>
+		<script src="controller.js"></script>
+		<script type="text/javascript">
+			//rem
+			document.documentElement.style.fontSize = innerWidth / 16 + 'px';
+			onresize = function() {
+				document.documentElement.style.fontSize = innerWidth / 16 + 'px';
+			}
+			//		底部导航切换
+			$(document).ready(function() {
+				$("footer li").click(function() {
+					$(this).parent().children().children().css("color", "#666");
+					$(this).children('a').css("color", "red");
+
+					var num = $(this).index() + 1;
+					$("footer img").eq(0).attr("src", "img/icon1.png");
+					$("footer img").eq(1).attr("src", "img/icon2.png");
+					$("footer img").eq(2).attr("src", "img/icon3.png");
+					$("footer img").eq(3).attr("src", "img/icon4.png");
+					$("footer img").eq(num - 1).attr("src", "img/ico" + num + ".png");
+				})
+			})
+		</script>
+		<script type="text/javascript">
+			$.ajax({
+				type: "get",
+				url: "http://restapi.amap.com/v3/ip?key=4fc1f8855c287111b75bba807f042c83&ip=114.247.50.2",
+				success: function(msg) {
+					var jso = msg;
+					var tpl = '<span>' + jso.city + '</span>'
+					$(".location").append(tpl)
+				}
+			})
+		</script>
+		</body>
+
+</html>

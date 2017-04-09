@@ -1,0 +1,76 @@
+
+#cosmeticHeader{
+	padding-bottom: 1.5rem;
+}
+#cosmeticHeader ul{
+	min-height: 3.5rem;
+	padding:0.5rem 0;
+	background-color: #fff;
+}
+
+#cosmeticHeader ul li{
+	width:3.325rem;
+	height:1.45rem;
+	border:0.025rem dashed #f0f0f0;
+	margin:0.25rem 0 0 0.3rem;
+	float:left;
+	text-align: center;
+	font-size: 0.65rem;
+	line-height: 1.45rem;
+	color:#9fa099;
+	cursor: pointer;
+}
+#cosmeticHeader>img{
+	display: inline-block;
+	margin-bottom:0.5rem;
+	width:100%;
+}
+#cosmeticHeader dl{
+	min-height:13.15rem;
+	width:45.7%;
+	padding:0 2% 0 2%;
+	border-bottom: 1px solid #eee;
+	float:left;
+}
+#cosmeticHeader dl:nth-child(1){
+	border-top: 1px solid #eee;
+}
+#cosmeticHeader dl:nth-child(2){
+	border-top: 1px solid #eee;
+}
+#cosmeticHeader dl:nth-child(odd){
+border-right: 1px solid #eee;
+}
+#cosmeticHeader dl:last-child{
+	/*border-right: none;*/
+	border-bottom: 1px solid #eee;
+}
+#cosmeticHeader dt img{
+	margin:0.55rem auto 1.1rem auto;
+	width:100%;
+}
+#cosmeticHeader dd img{
+	vertical-align: middle;
+	display: inline-block;
+	width:11%;
+}
+#cosmeticHeader dd p:first-child{
+	font-size: 0.42rem;
+	height:0.8rem;
+	color:#9f9f9f;
+	letter-spacing:-1px;
+	overflow-x:hidden ;
+}
+#cosmeticHeader dd p:nth-child(2){
+	line-height: 1.1rem;
+	font-size: 0.5rem;
+	font-weight: 800;
+}
+#cosmeticHeader dd p:last-child{
+	font-size: 0.5rem;
+}
+#cosmeticHeader dd span{
+	color:#f34a9a;
+	margin-right: 0.2rem;
+}
+
